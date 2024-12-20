@@ -65,8 +65,8 @@ const DEFAULT_POST_LIST = [
   },
   {
     id: "2",
-    title: "Paas ho bhai",
-    body: "4 saal ki masti k baad bhi ho gaye hain paas. Hard to believe.",
+    title: "Just Graduated",
+    body: "Hardwork does pays off.",
     reactions: 15,
     userId: "user-12",
     tags: ["Graduating", "Unbelievable"],

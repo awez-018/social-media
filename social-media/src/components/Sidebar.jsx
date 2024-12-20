@@ -2,7 +2,7 @@ function Sidebar({ selectedTab, setSelectedTab }) {
   return (
     <div
       className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar"
-      style={{ width: "280px" }}
+      style={{ width: "180px" }}
     >
       <a
         href="/"
@@ -19,7 +19,7 @@ function Sidebar({ selectedTab, setSelectedTab }) {
           className="nav-item"
           onClick={() => {
             setSelectedTab("Home");
-          }} 
+          }}
         >
           <a
             href="#"
@@ -53,7 +53,7 @@ function Sidebar({ selectedTab, setSelectedTab }) {
         </li>
       </ul>
       <hr />
-      <div className="dropdown">
+      {/* <div className="dropdown">
         <a
           href="#"
           className="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
@@ -97,7 +97,7 @@ function Sidebar({ selectedTab, setSelectedTab }) {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
