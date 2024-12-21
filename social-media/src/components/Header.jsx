@@ -54,9 +54,8 @@ function Header() {
               >
                 <input
                   type="search"
-                  className="form-control form-control-dark text-bg-dark"
+                  className="form-control form-control-dark text-bg-dark sb"
                   placeholder="Search..."
-                  aria-label="Search"
                 />
               </form>
 
