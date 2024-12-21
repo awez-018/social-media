@@ -30,7 +30,10 @@ const PostList = () => {
     <>
       {fetching && <LoadingSpinner />}
       {!fetching && postList.length === 0 && <WelcomeMessage />}
-      {!fetching && postList.map((post) => <Post key={post.id} post={post} />)}
+      <div className="post-list">
+        {!fetching &&
+          postList.map((post) => <Post key={post.id} post={post} />)}
+      </div>
     </>
   );
 };
